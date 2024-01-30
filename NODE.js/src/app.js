@@ -108,7 +108,7 @@ app.delete('/usuarios/:ci', (req, res) => {
 app.use('/', tasksRoutes);
 
 app.get('/', (req, res) => {
-  res.render('home');
+  res.render('index');
 });
 
 app.listen(port, () => {
